@@ -19,7 +19,7 @@
         <td>{{ employee.eemail }}l</td>
         <td>{{ employee.econtact }}</td>
         <td>
-            <a href="">Edit</a>
+            <a href="{% url 'employee_update' employee.id %}">Edit</a>
             <a href="">Delete</a>
         </td>
     </tr>
